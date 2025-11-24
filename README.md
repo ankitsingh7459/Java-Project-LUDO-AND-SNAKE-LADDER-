@@ -13,9 +13,9 @@ Project Overview
 - Pawn movement
 - 2–4 players
 Run Instructions – Ludo (PowerShell)
-run "run.bat"
-Press enter to Roll the Dice
-click the pieces to move. 
+-run "run.bat"
+-Press enter to Roll the Dice
+-Click the pieces to move. 
 Technologies Used
 - Java
 - Swing / AWT
