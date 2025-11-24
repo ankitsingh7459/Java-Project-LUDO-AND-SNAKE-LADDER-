@@ -12,11 +12,11 @@ Project Overview
 - Dice animation
 - Pawn movement
 - 2–4 players
-Run Instructions – Ludo (PowerShell)
+2. Run Instructions – Ludo (PowerShell)
  - run "run.bat"
  - Press enter to Roll the Dice
  - Click the pieces to move. 
-Technologies Used
+3. Technologies Used
 - Java
 - Swing / AWT
 - OOP
