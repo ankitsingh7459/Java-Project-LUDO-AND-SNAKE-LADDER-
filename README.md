@@ -12,22 +12,10 @@ Project Overview
 - Dice animation
 - Pawn movement
 - 2–4 players
-2. Snake & Ladder Game
-- Dice movement
-- Snakes and ladders logic
-- Multiple players
 Run Instructions – Ludo (PowerShell)
-cd "c:\Users\ankit\OneDrive\Desktop\New
-folder\CLASSIC_LUDO_GAME_IN_JAVA_WITH_SOURCE_CODE\LUDO"
-powershell -ExecutionPolicy Bypass -File .\run.ps1
-Run Instructions – Ludo (CMD)
-cd /d "c:\Users\ankit\OneDrive\Desktop\New
-folder\CLASSIC_LUDO_GAME_IN_JAVA_WITH_SOURCE_CODE\LUDO"
-run.bat
-Run Snake & Ladder
-cd SnakeAndLadder
-javac *.java
-java SnakeAndLadderGame
+run "run.bat"
+Press enter to Roll the Dice
+click the pieces to move. 
 Technologies Used
 - Java
 - Swing / AWT
