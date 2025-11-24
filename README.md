@@ -3,35 +3,34 @@
 =======
 Classic LUDO Game (Java)
 
-Run instructions (Windows PowerShell):
-
-1. Open PowerShell and change to the project folder:
-
-```powershell
-cd "c:\Users\ankit\OneDrive\Desktop\New folder\CLASSIC_LUDO_GAME_IN_JAVA_WITH_SOURCE_CODE\LUDO"
-```
-
-2. Use the provided PowerShell launcher which compiles and runs the game:
-
-```powershell
+Java Project – Ludo & Snake & Ladder
+A complete Java-based board game collection featuring Classic Ludo and Snake & Ladder.
+This project uses Java Swing (GUI) and standard Java libraries.
+Project Overview
+1. Classic Ludo Game
+- GUI with Swing
+- Dice animation
+- Pawn movement
+- 2–4 players
+2. Snake & Ladder Game
+- Dice movement
+- Snakes and ladders logic
+- Multiple players
+Run Instructions – Ludo (PowerShell)
+cd "c:\Users\ankit\OneDrive\Desktop\New
+folder\CLASSIC_LUDO_GAME_IN_JAVA_WITH_SOURCE_CODE\LUDO"
 powershell -ExecutionPolicy Bypass -File .\run.ps1
-```
-
-Run instructions (Command Prompt):
-
-1. Open `cmd.exe` and change to the project folder:
-
-```
-cd /d "c:\Users\ankit\OneDrive\Desktop\New folder\CLASSIC_LUDO_GAME_IN_JAVA_WITH_SOURCE_CODE\LUDO"
-```
-
-2. Double-click `run.bat` or run it from the command line:
-
-```
+Run Instructions – Ludo (CMD)
+cd /d "c:\Users\ankit\OneDrive\Desktop\New
+folder\CLASSIC_LUDO_GAME_IN_JAVA_WITH_SOURCE_CODE\LUDO"
 run.bat
-```
-
-Notes:
-- The project uses the Java standard library (`javax.swing`, `java.awt`). Ensure you have a Java JDK (or JRE) installed and `java`/`javac` are on your PATH.
-- The sources were moved to the default (unnamed) package so you can run `java GameScreen` directly. If you prefer package usage, revert the `package LUDO_BUILD;` lines and compile with `javac -d . *.java` then run with `java LUDO_BUILD.GameScreen`.
->>>>>>> c857ff1 (Add launchers and README; remove package declarations to run in default package)
+Run Snake & Ladder
+cd SnakeAndLadder
+javac *.java
+java SnakeAndLadderGame
+Technologies Used
+- Java
+- Swing / AWT
+- OOP
+Author
+ANKIT SINGH
